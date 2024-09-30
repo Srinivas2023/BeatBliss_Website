@@ -1,0 +1,372 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.kalnia-glaze-heading {
+    font-family: "Kalnia Glaze", serif;
+    font-weight: 700; /* Change this to desired weight */
+    color: slateblue; /* Keep your color */
+    font-size: x-large;
+}
+.profile-settings {
+    margin: 20px;
+}
+.profile-pic {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.login-form {
+    display: none; /* Initially hidden */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 300px; /* Adjust width as needed */
+}
+.login-form h2 {
+    color: slateblue;
+}
+.login-form label {
+    display: block;
+    margin-top: 10px;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #04e121;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Links */
+.navbar{
+    background-color:#6f13d1;
+}
+.nav-links {
+    background-color: #111; /* Sidebar background color */
+    padding: 10px 0; /* Padding for spacing */
+}
+
+.nav-links ul {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: flex-start; /* Align items to the start */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.nav-links ul li {
+    padding: 10px 15px; /* Padding for spacing */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.nav-links ul li:hover {
+    background-color: #575757; /* Hover effect */
+}
+
+/* Existing navbar and sidebar styles go here */
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.login-container h2 {
+    text-align: center;
+    font-size: 24px; /* Adjusted font size */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px; /* Adjusted font size */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px; /* Adjusted font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Adjusted font size */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.search-bar input {
+    width: 200%;
+    padding: 10px;
+    border: 20px 20px 20px 20px black ;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Featured Playlists */
+.featured-playlists {
+    padding: 40px;
+}
+
+.featured-playlists h2 {
+    margin-bottom: 20px;
+}
+
+.playlist-container {
+    display: flex;
+    gap: 20px;
+}
+
+.playlist-item {
+    flex: 1;
+    text-align: center;
+}
+
+.playlist-item img {
+    width: 70%;
+    border-radius: 10px;
+    height: 250px;
+}
+.top-artists {
+    padding: 40px;
+}
+
+.top-artists h2 {
+    margin-bottom: 20px;
+}
+
+.artist-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.artist-item {
+    flex: 1;
+    text-align: center;
+}
+
+.artist-item img {
+    width: 50%;
+    border-radius: 50%;
+    height: 200px; /* Adjust height as needed */
+}
+
+/* New Releases */
+.new-releases {
+    padding: 40px;
+    background-color: #eee;
+
+}
+
+.album-container {
+    display: flex;
+    gap: 20px;
+}
+
+.album-item {
+    flex: 1;
+    text-align: center;
+}
+
+.album-item img {
+    width: 50%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+/* Trending Songs */
+.trending-songs {
+    padding: 40px;
+}
+
+.song-list {
+    display: flex;
+    gap: 20px;
+}
+
+.song-item {
+    flex: 1;
+    text-align: center;
+}
+
+.song-item img {
+    width: 50%;
+    border-radius: 10px;
+    height: 300px;
+}
+h3{
+    text-align: center;
+    font-style: oblique;
+}
+.membership{
+    background-image: url(/BeatBliss/images/Screenshot\ 2024-09-30\ 201439.png); height: 300px ;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+}
+.membership-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    color: #04e121;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #04e121;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #03b115;
+}
+  
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+  .premium-membership {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+ 
+
+.background-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send the image to the back */
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white; /* Adjust color for contrast */
+
+}
+
+.features-list li {
+    margin: 10px 0;
+    font-size: 1.2em; /* Adjust font size as needed */
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+.features-list{
+    padding-top: 300px;
+    padding-left: 70%;
+    background-image: url(/BeatBliss/images/bfbc9871-bc7e-4545-9277-839a14ae1128.webp);
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-style: initial;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatBliss website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="/BeatBliss/images/th (8).jpeg" alt="JioSaavn Logo">
+        </div>
+        <div class="search-bar" style="width: 300px;">
+            <input type="text" placeholder="Search for songs, artists, or albums">
+        </div>
+        <div class="profile-settings">
+            <button onclick="toggleLoginForm()" style="background: none; border: none; cursor: pointer; padding: 0;">
+                <img src="/BeatBliss/images/th (7).jpeg" alt="User Profile" class="profile-pic" style="width: 50px; height: 50px; border-radius: 50%;">
+            </button>
+        </div>
+
+        
+    </header>
+    <nav class="nav-links">
+        <ul>
+            <li>Browse</li>
+            <li>New Releases</li>
+            <li>Top Charts</li>
+            <li>Top Playlists</li>
+            <li>Podcasts</li>
+            <li>Top Artists</li>
+            <li>Radio</li>
+            <li>Library</li>
+            <li>History</li>
+            <li>Liked Songs</li>
+            <li>Albums</li>
+            <li>Podcasts</li>
+            <li>Artists</li>
+            <li>New Playlist</li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section (Featured Carousel) -->
+    <section class="hero-section">
+        <div class="carousel">
+            <div class="slide" style="background-image: url('/BeatBliss/images/Screenshot\ \(689\).png');">
+                <div class="overlay">
+                    <h2>Discover New Music</h2>
+                    <p>Explore the latest trending tracks.</p>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('/BeatBliss/images/Screenshot\ \(690\).png');">
+                <div class="overlay">
+                    <h2>Top Playlists</h2>
+                    <p>Find the perfect playlist for every mood.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Playlists -->
+    <section class="featured-playlists">
+        <h2>Featured Playlists</h2>
+        <div class="playlist-container">
+            <div class="playlist-item">
+                <a href="https://www.jiosaavn.com/song/tillu-anna-dj-pedithe/RScBVS0EUX4" target="_blank">
+                <img src="/BeatBliss/images/Screenshot (686).png" alt="Playlist 1">
+            </a>
+                <h3>Chill Vibes</h3>
+            </div>
+            <div class="playlist-item">
+                <a href="https://www.jiosaavn.com/song/chaleya/FgkHXjldXWs" target="_blank">
+                <img src="/BeatBliss/images/Screenshot (687).png" alt="Playlist 2">
+            </a>
+                <h3>Bollywood Hits</h3>
+            </div>
+            <div class="playlist-item">
+                <a href="https://www.jiosaavn.com/album/dhruva/q1rB0G3v54o_" target="_blank">
+                <img src="/BeatBliss/images/Screenshot (688).png" alt="Playlist 3">
+            </a>
+                <h3>Workout Mix</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Top Artists -->
+<section class="top-artists">
+    <h2>Top Artists</h2>
+    <div class="artist-container">
+        <div class="artist-item">
+            <img src="/BeatBliss/images/Screenshot 2024-09-30 130857.png" alt="Anirudh Ravichander">
+            <h3>Anirudh Ravichander</h3>
+        </div>
+        <div class="artist-item">
+            <img src="/BeatBliss/images/Screenshot 2024-09-30 131105.png" alt="Shreya Ghosal">
+            <h3>Shreya Ghosal</h3>
+        </div>
+        <div class="artist-item">
+            <img src="/BeatBliss/images/Screenshot 2024-09-30 131136.png" alt="Thaman SS">
+            <h3>Thaman SS</h3>
+        </div>
+        <div class="artist-item">
+            <img src="/BeatBliss/images/Screenshot 2024-09-30 131032.png" alt="DSP">
+            <h3>DSP</h3>
+        </div>
+    </div>
+</section>
+
+    <!-- New Releases -->
+    <section class="new-releases">
+        <h2>New Releases</h2>
+        <div class="album-container">
+            <div class="album-item">
+                <img src="/BeatBliss/images/Devara-Part-1-Telugu-Telugu-2024-20240926171010-500x500.jpg" alt="Album">
+                <h3>Latest Album</h3>
+            </div>
+            <div class="album-item">
+                <img src="/BeatBliss/images/ANIMAL-Hindi-2023-20231124191036-500x500.jpg" alt="Album 2">
+                <h3>Trending Album</h3>
+            </div>
+            <div class="album-item">
+                <img src="/BeatBliss/images/Stree-2-Hindi-2024-20240828083834-500x500.jpg" alt="Album 2">
+                <h3>Trending Album</h3>
+            </div>
+            <div class="album-item">
+                <img src="/BeatBliss/images/Salaar-Cease-Fire-Telugu-Telugu-2024-20240807224742-500x500.jpg" alt="Album 2">
+                <h3>Trending Album</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Songs -->
+    <section class="trending-songs">
+        <h2>Trending Songs</h2>
+        <div class="song-list">
+            <div class="song-item">
+                <img src="/BeatBliss/images/Red-Sea-From-Devara-Part-1-Telugu-2024-20240912181004-500x500.jpg" alt="Song 1">
+                <h3>Song Title 1</h3>
+            </div>
+            <div class="song-item">
+                <img src="/BeatBliss/images/Screenshot (685).png" alt="Song 2">
+                <h3>Song Title 2</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class="kalnia-glaze-heading">Collabartion with the youtube</h3><br/>
+
+        
+        <div  class="membership" style="text-align: center; padding: 20px; background-color: #f0f0f0; border-radius: 10px;">
+            <p style="font-size: 18px; color: black;">
+                <mark style="color: #071309;">
+                Unlock an unparalleled entertainment experience by choosing our Premium Membership! When you join us, not only will you enjoy an ad-free experience and access to exclusive playlists, but you will also receive a complimentary YouTube Premium membership with your purchase. That's right—one membership, two incredible benefits! 
+                Stream your favorite music seamlessly while enjoying the latest videos without interruptions. Don't miss out on this amazing offer that doubles your value and enhances your entertainment journey. 
+                Sign up today and elevate your listening and viewing experience to new heights!</mark>
+            </p>
+    </div>
+    <div class="membership-form">
+        <h2>Premium Membership</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <!-- Premium Membership Section -->
+    <section class="premium-membership">
+    <h2 style="color:chartreuse;">Premium Membership</h2>
+        <div class="premium-features">
+            <!-- <img src="/JIOSAAVAN/bfbc9871-bc7e-4545-9277-839a14ae1128.webp"alt="Premium Membership Background" class="background-image"> -->
+            <ul class="features-list" style="color:rgb(3, 3, 3);">
+                <li>Ad-Free Experience</li>
+                <li>Download Songs for Offline Listening</li>
+                <li>Access to Exclusive Playlists</li>
+                <li>Higher Audio Quality</li>
+                <li>Early Access to New Releases</li>
+            </ul>
+        </div>
+    </section>  
+    <footer style="background-color: #282c34; color: white; padding: 20px 0; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <p style="margin: 10px 0;">©  BeatBliss. All Rights Reserved.</p>
+            <p style="margin: 10px 0;">
+                <a href="#" style="color: white; text-decoration: none; margin: 0 15px;">Terms of Service</a> |
+                <a href="#" style="color: white; text-decoration: none; margin: 0 15px;">Privacy Policy</a>
+            </p>
+            <p style="margin: 10px 0;">Follow us on: 
+                <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Facebook</a> |
+                <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Twitter</a> |
+                <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">Instagram</a><br/>
+                <a href="https://www.linkedin.com/in/voona-srinivasarao-355482231/" target="_blank" style="color: white; text-decoration: none; margin: 0 10px;">Copyright © 2024 Innomatics Labs (Srinivas)   Connect with me on <img src="/BeatBliss/images/th (10).jpeg" alt="on it" width="20px" height="20px"></a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
