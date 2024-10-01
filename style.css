@@ -284,7 +284,7 @@ h3{
     font-style: oblique;
 }
 .membership{
-    background-image: url('images\Screenshot 2024-09-30 201439.png'); height: 300px ;
+    background-image: url(images\Screenshot 2024-09-30 201439.png); height: 300px ;
     font-weight: 900;
     font-size: x-large;
     text-align: center;
@@ -365,7 +365,7 @@ button:hover {
 .features-list{
     padding-top: 300px;
     padding-left: 70%;
-    background-image: url('images/bfbc9871-bc7e-4545-9277-839a14ae1128.webp');
+    background-image: url(images/bfbc9871-bc7e-4545-9277-839a14ae1128.webp);
     background-repeat: no-repeat;
     height: 1000px;
     font-style: initial;
