@@ -365,7 +365,7 @@ button:hover {
 .features-list{
     padding-top: 300px;
     padding-left: 70%;
-    background-image: url(/BeatBliss/images/bfbc9871-bc7e-4545-9277-839a14ae1128.webp);
+    background-image: url('images/bfbc9871-bc7e-4545-9277-839a14ae1128.webp');
     background-repeat: no-repeat;
     height: 1000px;
     font-style: initial;
